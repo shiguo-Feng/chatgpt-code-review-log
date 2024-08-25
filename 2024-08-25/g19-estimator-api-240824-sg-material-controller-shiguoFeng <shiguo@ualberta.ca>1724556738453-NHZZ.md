@@ -46,7 +46,7 @@ The code appears to contribute to a system designed for managing materials in an
    - Use Data Transfer Objects (DTOs) to structure API responses instead of directly exposing entities.
 
 #### 💻 Modified Code:
-```java
+```diff
 diff --git a/estimator/src/main/java/com/g19graphics/controller/MaterialController.java b/estimator/src/main/java/com/g19graphics/controller/MaterialController.java
 --- a/estimator/src/main/java/com/g19graphics/controller/MaterialController.java
 +++ b/estimator/src/main/java/com/g19graphics/controller/MaterialController.java
