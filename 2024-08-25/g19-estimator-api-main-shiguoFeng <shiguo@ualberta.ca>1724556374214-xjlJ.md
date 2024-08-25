@@ -1,4 +1,4 @@
-```markdown
+
 # OpenAi Code Review.
 ### 😄 Code Score: 85
 #### 😄 Code Logic and Purpose:
@@ -162,7 +162,6 @@ public class MaterialService implements IMaterialService {
         }
     }
 }
-```
 #### ✅ Code Strengths:
 - Use of dependency injection and annotations to streamline code.
 - Clear domain-driven design with separation of responsibilities.
